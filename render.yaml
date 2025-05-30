@@ -1,8 +1,7 @@
 services:
   - type: web
     name: tuniimmo-back
-    env: java
-    buildCommand: "./mvnw clean package -DskipTests"
-    startCommand: "java -jar target/tuniimmo-backend-0.0.1-SNAPSHOT.jar"
+    env: docker
     plan: free
     autoDeploy: true
+    dockerfilePath: ./Dockerfile
