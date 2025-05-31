@@ -79,6 +79,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
                 "http://localhost:4300","https://tunimmo-yassino.vercel.app",
+                "https://tunimmoyassino-fga0gixdk-yassinemeddeb1s-projects.vercel.app",
                 "http://10.0.2.2:4300",
                 "http://192.168.1.104",     // <-- C'est cette IP que Flutter utilise
                 "http://192.168.1.104:9091" // <-- Facultatif mais recommandé
